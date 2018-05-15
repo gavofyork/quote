@@ -11,7 +11,7 @@ readme = "README.md"
 include = ["Cargo.toml", "src/**/*.rs", "tests/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 
 [dependencies]
-proc-macro2 = { version = "0.3", default-features = false }
+proc-macro2 = { git = "https://github.com/gavofyork/proc-macro2.git", default-features = false }
 
 [features]
 default = ["proc-macro"]
